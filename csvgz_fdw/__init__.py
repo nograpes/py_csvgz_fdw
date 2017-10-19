@@ -4,6 +4,7 @@ from multicorn.utils import log_to_postgres
 import logging
 import csv
 import gzip
+import sys
 
 class CSVGZForeignDataWrapper(ForeignDataWrapper):
 
